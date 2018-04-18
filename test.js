@@ -35,8 +35,13 @@ $(document).ready(function() {
 
     });
 
+<<<<<<< HEAD
 // Ashish is soo cool I mean jeez
 //test2
+=======
+
+//test3
+>>>>>>> e1a9bf756ebceb8a088f2977f24b0e4727b3ddd6
 //yoiyoiyoiyyoiy
 //cool kid shadow effect
     $("#myDiv").mouseover(function() {
