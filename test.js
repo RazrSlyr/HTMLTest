@@ -10,7 +10,7 @@ $(document).ready(function() {
 
     /*$("#myDiv").click(function() {
       alert(getNameVal());
-      push test
+      nope its pull time
 
     })*/
 });
