@@ -35,7 +35,7 @@ $(document).ready(function() {
 
     });
 
-
+// Ashish is soo cool I mean jeez
 //test2
 //yoiyoiyoiyyoiy
 //cool kid shadow effect
