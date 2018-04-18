@@ -2,10 +2,12 @@ hey {
   color: red;
 }
 
-.hey {
+/*class*/
+.yo {
   color: green;
 }
 
+/*id*/
 #hey {
   color: blue;
 }
