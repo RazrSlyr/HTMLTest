@@ -10,5 +10,6 @@ $(document).ready(function() {
 
     /*$("#myDiv").click(function() {
       alert(getNameVal());
+      pull test
     })*/
 });
