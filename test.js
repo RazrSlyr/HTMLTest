@@ -1,10 +1,14 @@
-let boxes  = document.getElementsByClassName("box");
+$(document).ready(function() {
+    // all custom jQuery will go here
+    $("#nameInput").keyup(function() {
+      $("p").text($("#nameInput").val());
+    })
 
+    $("#nameInput").keydown(function() {
+      $("p").text($("#nameInput").val());
+    })
 
-function boxToRed() {
-  boxes[0].style.backgroundColor = "red";
-}
-
-function boxToBlue() {
-  boxes[0].style.backgroundColor = "blue";
-}
+    /*$("#myDiv").click(function() {
+      alert(getNameVal());
+    })*/
+});
