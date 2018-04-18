@@ -1,13 +1,7 @@
-hey {
-  color: red;
-}
-
-/*class*/
-.yo {
-  color: green;
-}
-
-/*id*/
-#hey {
-  color: blue;
+.box {
+  width: 50%;
+  height: 90px;
+  background-color: blue;
+  box-shadow: 10px 10px 50px;
+  align-self: center
 }
