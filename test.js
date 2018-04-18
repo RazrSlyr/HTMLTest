@@ -1,23 +1,22 @@
 $(document).ready(function() {
     // all custom jQuery will go here
+
+    // screen size variables
     const startWHeight = $(window).height();
     let wHeight = $(window).height();
-
-
-
     const startWidth = $(window).width();
     let width = $(window).width();
-
+    //scaler for text elements
     let scaler = Math.sqrt(wHeight / startWHeight * width / startWidth);
-
+    //text elements
     let fontSize = Math.round(50 * scaler);
-
+    //input elements
     let nameInput = $("#nameInput");
     nameInput.width(Math.round(width / startWidth * 159) + "px");
     nameInput.height(Math.round(wHeight / startWHeight * 20) + "px");
 
 
-
+    //setting div size and text size
     $("#myDiv").css("height", wHeight / 2 + "px");
     $("#myDiv").css("margin-top", wHeight / 4 + "px");
     $("#myDiv").css("font-size", fontSize + "px");
