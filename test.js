@@ -37,7 +37,7 @@ $(document).ready(function() {
 
 
 //test2
-//yoiyoiyoiyyoiyi
+//yoiyoiyoiyyoiy
 //cool kid shadow effect
     $("#myDiv").mouseover(function() {
       //alert(`Font Size: ${fontSize} Scaler: ${scaler}`);
