@@ -35,8 +35,6 @@ $(document).ready(function() {
 
     });
 
-    $("moonman").text(`Body Height: ${$("body").height()} Body Width: ${$("body").width()}`);
-
 // cash money
 //test3
 //yoiyoiyoiyyoiy
@@ -51,4 +49,11 @@ $(document).ready(function() {
     $("#myDiv").mouseleave(function() {
       $("#myDiv").css("box-shadow", "");
     });
+
+    //firebase stuff
+
+
+
+
+
 });
